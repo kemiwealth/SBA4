@@ -45,3 +45,9 @@ function addTask() {
     statusInput.value = "Status";
 }
 
+// Event Listeners 
+addTaskBtn.addEventListener('click', addTask);
+filterStatus.addEventListener("change", displayTasks);
+filterCategory.addEventListener("change", displayTasks);
+
+
